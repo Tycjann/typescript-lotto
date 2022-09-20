@@ -1,8 +1,8 @@
 import inquirer from 'inquirer';
 
-const chosenNumbers: Array<number> = [];
-const randomNumbers: Array<number> = [];
-const hitNumbers: Array<number> = [];
+const chosenNumbers: number[] = [];
+const randomNumbers: number[] = [];
+const hitNumbers: number[] = [];
 
 const validateInput = (text: string): boolean => {
   const number = parseInt(text);
